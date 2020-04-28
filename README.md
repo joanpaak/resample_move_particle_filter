@@ -8,7 +8,7 @@ Get the jar-file, check out the examples.
 
 ## Steps to run the filter:
 
-- Add ParticleFilter.jar
+- Add ParticleFilter.jar to your classpath
 - Create a type extending the abstract class DataPoint
 - Create a type extending the abstract class Model
   - This should have the overriden method logLikelihood that calculates, well, the log likelihood
