@@ -5,12 +5,6 @@ import java.util.ArrayList;
 import statistical_functions.GenericStatsFunctions;
 import statistical_functions.NormalDistribution;
 
-/**
- * Two ways to run: 1) Add observations on trial-to-trial basis
- *                  2) Run on a whole set of ArrayList<DataPoint> datapoints
- * @author Joni
- *
- */
 public class ParticleFilter {
 	
 	private int   NParticles;
